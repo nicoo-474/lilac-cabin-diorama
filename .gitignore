@@ -1,0 +1,16 @@
+# 逐版备份，每份约 37 MB，不入库
+backups/
+
+# 调试脚本与诊断图
+work/blender/_scratch/
+renders/_diag/
+
+# 日志、缓存、Blender 备份文件
+*.log
+*.blend1
+last_result.json
+__pycache__/
+*.pyc
+
+# WorkBuddy 本地会话数据
+.workbuddy/
